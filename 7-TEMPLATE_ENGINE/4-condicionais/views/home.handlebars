@@ -1,0 +1,15 @@
+<h1>Olá HandleBars</h1>
+<p>Aprendendo criação de layouts com handlebars</p>
+<p>O nome do usuário é
+  {{user.name}}
+  {{user.surname}}, e sua idade é de
+  {{user.age}}
+  anos</p>
+
+<h2>{{palavra}}</h2>
+
+{{#if auth}}
+  <p>Você está autenticado,
+    <a href="/dashboard">clique aqui</a>
+    para acessar a area de membros</p>
+{{/if}}
